@@ -1,7 +1,9 @@
 
 import java.awt.Frame;
 
-public class Application extends Frame {
+import javax.swing.JFrame;
+
+public class Application extends JFrame {
 
 	public static void main(String[] args) {
 		new Application();
@@ -19,6 +21,9 @@ public class Application extends Frame {
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
+	
+	
 
 }
