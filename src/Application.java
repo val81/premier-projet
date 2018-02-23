@@ -22,8 +22,9 @@ public class Application extends JFrame {
 		this.pack();
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	}
+		this.setLocationRelativeTo(null);
 	
 	
 
+}
 }
